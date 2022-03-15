@@ -11,7 +11,7 @@ export const postAPI = createApi({
             query: (limit: number = 5) => ({
                 url: '/posts',
                 params : {
-                    _limit : 5
+                    _limit : limit
                 }
             })
         })

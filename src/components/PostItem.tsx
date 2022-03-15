@@ -1,5 +1,6 @@
 import React from 'react'
 import { IPost } from '../models/IPost'
+import './post.scss'
 
 interface PostItemProps {
     post: IPost
